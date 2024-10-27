@@ -8,11 +8,39 @@
     --color-gray: #222222;
     --color-dark-white: #8d8d8d;
 }
-body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
     background: black;
     font-style: normal;
     color: aliceblue;
+} */
+body{
+    color:  var(--color-white);
+    background-color:  var(--color-black);
+    font-family: "Inter", sans-serif;
 }
+.container{
+    width: 80%;
+    margin: auto;
+}
+h4{
+    font-size: 28px;
+    color: var(--color-white);
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--color-dark-white);
+    margin: 10px 0;
+}
+
 .btn-primary{
     background-color: brown;
     color: white;
@@ -38,11 +66,9 @@ body{
 .justify-content-between{
     justify-content: space-between;
 }
-.container{
-    width: 80%;
-    margin: auto;
-}
+
 /* navbar related css start */
+
 /* .navbar{
     max-width: 1440px;
     margin: 0 auto;
@@ -81,24 +107,24 @@ header .nav-item a.active-part{
     font-weight: 700;
     font-size: 2rem;
 } */
-.nav-item{
+/* .nav-item{
     list-style: none;
     color: var(--color-white);
     padding: 10px 20px;
-}
-.active-part{
+} */
+/* .active-part{
     background-color: var(--color-red);
     border-radius: 46px; 
-}
+} */
 
 /* header .nav-item a.active{
     background-color: var(--color-red);
     border-radius: 46px;
 } */
-.nav-link{
-    /* color: antiquewhite; */
+/* .nav-link{
+    color: antiquewhite;
     text-decoration: none;
-}
+} */
 /* .home_buttun{
     list-style: none;
     margin-right: 30px;
@@ -107,7 +133,9 @@ header .nav-item a.active-part{
     border-radius: 20px;
     background-color: brown;
 } */
+
  /* navbar css end */
+
 /* Banner Styles */
 .banner{
     display: grid;
