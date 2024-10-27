@@ -81,6 +81,9 @@ button{
 .align-items-center{
     align-items: center;
 }
+.text-center{
+    text-align: center;
+}
 /* navbar related css start */
 
 /* .navbar{
@@ -243,7 +246,6 @@ header .nav-item a.active-part{
 .habits{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    max-width: 1044px;
     align-items: center;
     margin: 0 auto;
     /* border: 2px solid seagreen; */
@@ -256,11 +258,12 @@ header .nav-item a.active-part{
     p{text-align: center;}
 }
 .hebits-title{
-    justify-items: center;
+    color: var(--color-white);
+    font-size: 48px;
 }
 .hebit-items{
     justify-items: center;
-    margin: 10px;
+    margin: 40px;
 /* border: 2px solid seagreen; */
 }
 .habits-img{
