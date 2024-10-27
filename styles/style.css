@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --color-red: #E6533C; 
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-dark: #191919;
+    --color-gray: #222222;
+    --color-dark-white: #8d8d8d;
+}
+body{
+    background: black;
+    font-style: normal;
+    color: aliceblue;
+}
+.btn-primary{
+    background-color: brown;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    font-size: 1.25rem;
+    border-radius: 35px;
+    border: none;
+}
+.downloadappbutton{
+    background: black;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    font-size: 1.25rem;
+    border: 2px solid grey;
+    border-radius: 35px;
+}
+/* Reusable css class */
+.display-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* navbar related css start */
+/* .navbar{
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 46px;
+    justify-content: space-between;
+    align-items: center;
+} */
+header{
+    padding-top: 57px;
+}
+.logo-title{
+    color: var(--color-white);
+}
+nav{
+    border: 1px solid var(--color-gray);
+    border-radius: 46px;
+    padding: 10px 2px;
+}
+nav ul{
+    list-style-type: none;
+}
+header .nav-item a{
+    color: var(--color-white);
+    padding: 10px 20px;
+}
+header .nav-item a.active-part{
+    background-color: var(--color-red);
+    border-radius: 46px;
+}
+/* ul{
+    border: 2px solid gray;
+    border-radius: 25px;
+    align-items: center;
+} */
+/* .brand{
+    font-weight: 700;
+    font-size: 2rem;
+} */
+.nav-item{
+    list-style: none;
+    color: var(--color-white);
+    padding: 10px 20px;
+}
+.active-part{
+    background-color: var(--color-red);
+    border-radius: 46px; 
+}
+
+/* header .nav-item a.active{
+    background-color: var(--color-red);
+    border-radius: 46px;
+} */
+.nav-link{
+    /* color: antiquewhite; */
+    text-decoration: none;
+}
+/* .home_buttun{
+    list-style: none;
+    margin-right: 30px;
+    border: 3px solid brown;
+    padding: 2px;
+    border-radius: 20px;
+    background-color: brown;
+} */
+ /* navbar css end */
+/* Banner Styles */
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1440px;
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid brown;
+}
+
+.banner_img{
+    background-image: url('../images/Images\ 2.png');
+    width: 349px;
+    height: 580px;
+    margin-left: 45%;
+    border: 2px solid skyblue;
+}
+
+/* .banner-content-left{
+   width: 50%;
+} */
+/* .btn-500{
+    background-color: #808080;
+    color: black;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    background-position-x: right;
+    border: 3px solid #73AD21;
+} */
+/* .btn-350{
+    background-color: #808080;
+    color: black;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+  
+} */
+
+.btn-500{
+    border: 2px solid brown;
+    margin-left: 200px;
+    margin-top: 60px;
+    padding: 25px 30px;
+
+}
+.btn-350{
+    border: 2px solid seagreen;
+    margin-top: 280px;
+    padding: 25px 30px;
+}
+/* banner part end */
+
+/* Habits part Start */
+.habits{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1044px;
+    align-items: center;
+    margin: 0 auto;
+    /* border: 2px solid seagreen; */
+    /* grid-template-columns: 200px  200px 200px  200px 200px ; */
+    /* grid-template-columns: repeat(2,100px) 200px 150px; */
+    /* grid-template-columns: 100px  200px 300px  500px ;  */
+    /* grid-template-columns: repeat(4, 1fr); */
+}
+#changeyourhebits{
+    p{text-align: center;}
+}
+.hebits-title{
+    justify-items: center;
+}
+.hebit-items{
+    justify-items: center;
+    margin: 10px;
+/* border: 2px solid seagreen; */
+}
+.habits-img{
+    border-radius: 50%;   
+}
+/* Hebits part end */
+
+/* Running part start */
+.runing{
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: 500px  500px ;
+    max-width: 1044px;
+    max-height: 371px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: gray;
+}
+.runing_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 25px;
+}
+
+/* Traning exercice part start */
+
+.trainingExercises{
+    max-width: 1060px;
+    max-height: 582px;
+    align-items: center;
+    margin: 0 auto;
+    /* border: 2px solid brown; */
+    
+}
+.exercisesimgs1{
+    display: grid;
+    grid-template-columns: 250px 520px 290px ; 
+}
+.eximg1{
+    width: 100%;
+    height: 202px;
+}
+.eximg2{
+    width: 100%;
+    height: 202px;
+}
+.eximg3{
+    width: 100%;
+    height: 202px;
+}
+
+.exercisesimgs2{
+    display: grid;
+    grid-template-columns: 425px 288px 347px ;  
+}
+.eximg4{
+    width: 100%;
+    height: 202px;
+}
+.eximg5{
+    width: 100%;
+    height: 202px;
+}
+.eximg6{
+    width: 100%;
+    height: 202px;
+}
+/* Traning exercice part end */
+
+/* BMI Calculator part start */
+.BMI-title{
+    justify-items: center;
+}
+.BMI-calculate-part{
+    display: grid;
+    /* grid-template-columns: 200px  200px 200px  200px 200px ; */
+    /* grid-template-columns: repeat(2,100px) 200px 150px; */
+    /* grid-template-columns: 100px  200px 300px  500px ;  */
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: 200px 200px ; */
+    justify-content: center;
+    background-color:rgb(128, 128, 128);
+    max-width: 1440px;
+    align-items: center;
+    margin-bottom: 25px;
+    margin: 0 auto;
+    border: 2px solid brown;
+}
+.BMI-Calculate-title{
+    width: 300px;
+    margin-left: 208px;
+    /* border: 2px solid brown; */
+}
+.BMI-Calculator-Chart{
+    display: grid;
+    /* grid-template-columns: 200px  200px 200px  200px 200px ; */
+    /* grid-template-columns: repeat(2,100px) 200px 150px; */
+    /* grid-template-columns: 100px  200px 300px  500px ;  */
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: 150px 150px ;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gainsboro;
+ }
+.item{
+    align-items: center;
+    border: 1px solid gainsboro;
+}
+
+/* BMI Calculator part End */
