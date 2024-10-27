@@ -40,8 +40,20 @@ p{
     color: var(--color-dark-white);
     margin: 10px 0;
 }
+button{
+    color: var(--color-white);
+    background-color: var(--color-red);
+    border: 2px solid var(--color-red);
+    border-radius: 42px;
+    padding: 10px 40px;
+    font-size: 18px;
+}
+.btn-secondary{
+    background-color: transparent;
+    border: 2px solid var(--color-white);
+}
 
-.btn-primary{
+/* .btn-primary{
     background-color: brown;
     color: white;
     width: 200px;
@@ -49,8 +61,8 @@ p{
     font-size: 1.25rem;
     border-radius: 35px;
     border: none;
-}
-.downloadappbutton{
+} */
+/* .downloadappbutton{
     background: black;
     color: white;
     width: 200px;
@@ -58,7 +70,7 @@ p{
     font-size: 1.25rem;
     border: 2px solid grey;
     border-radius: 35px;
-}
+} */
 /* Reusable css class */
 .display-flex{
     display: flex;
@@ -66,7 +78,9 @@ p{
 .justify-content-between{
     justify-content: space-between;
 }
-
+.align-items-center{
+    align-items: center;
+}
 /* navbar related css start */
 
 /* .navbar{
@@ -137,22 +151,54 @@ header .nav-item a.active-part{
  /* navbar css end */
 
 /* Banner Styles */
-.banner{
+/* .banner{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     max-width: 1440px;
     align-items: center;
     margin: 0 auto;
     border: 2px solid brown;
+} */
+.w-50{
+    width: 50%;
+}
+.banner-content h2{
+    font-size: 78px;
+}
+.banner-content p{
+    margin: 15px 0;
 }
 
-.banner_img{
+.banner-right-content{
+    position: relative; 
+    margin-left: 150px;
+}
+.banner-right-img{
+    width: 450px;
+}
+.work-out-video{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    border-radius: 12px;
+    background-color: var(--color-gray);
+    padding: 17px 24px;
+}
+.video-tutorial{
+    position: absolute;
+    bottom: 80px;
+    border-radius: 12px;
+    background-color: #242424;
+    padding: 17px 30px;
+}
+/* .banner_img{
     background-image: url('../images/Images\ 2.png');
     width: 349px;
     height: 580px;
     margin-left: 45%;
     border: 2px solid skyblue;
-}
+} */
+
 
 /* .banner-content-left{
    width: 50%;
@@ -179,18 +225,18 @@ header .nav-item a.active-part{
   
 } */
 
-.btn-500{
+/* .btn-500{
     border: 2px solid brown;
     margin-left: 200px;
     margin-top: 60px;
     padding: 25px 30px;
 
-}
-.btn-350{
+} */
+/* .btn-350{
     border: 2px solid seagreen;
     margin-top: 280px;
     padding: 25px 30px;
-}
+} */
 /* banner part end */
 
 /* Habits part Start */
