@@ -470,3 +470,51 @@ th,td{
     border-radius: 18px;
 }
 /* Meet our team css end */
+
+/* Footer CSS Start */
+footer{
+    background-color: var(--color-dark);
+    padding: 40px 0;
+}
+.footer-bottom{
+    margin-top: 40px;
+}
+.footer-nav ul li a {
+    color: var(--color-dark-white);
+    font-size: 18px;
+    line-height: 30px;
+}
+.logo-text{
+    color: var(--color-red);
+}
+/* Footer CSS end */
+
+/* Mobile Responsive */
+@media only screen and (max-width: 576px) {
+    .banner{
+        flex-direction: column;
+    }
+    .w-50{
+        width: 100%;
+    }
+    .display-flex{
+        flex-wrap: wrap;
+    }
+    .display-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* Header */
+    nav{
+        display: none;
+    }
+    .hem-menu{
+        display: block;
+        width: 24px;
+    }
+
+    /* Footer */
+    .footer-nav{
+        flex-direction: column;
+    }
+
+}
