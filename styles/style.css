@@ -162,8 +162,15 @@ header .nav-item a.active-part{
     margin: 0 auto;
     border: 2px solid brown;
 } */
+ .banner-part{
+    margin-top: 30px;
+ }
 .w-50{
     width: 50%;
+}
+.section-title{
+    color: var(--color-white);
+    font-size: 48px;
 }
 .banner-content h2{
     font-size: 78px;
@@ -171,7 +178,6 @@ header .nav-item a.active-part{
 .banner-content p{
     margin: 15px 0;
 }
-
 .banner-right-content{
     position: relative; 
     margin-left: 150px;
@@ -255,6 +261,8 @@ header .nav-item a.active-part{
     /* grid-template-columns: repeat(4, 1fr); */
 }
 #changeyourhebits{
+    padding: 100px 0;
+    gap: 40px;
     p{text-align: center;}
 }
 .hebits-title{
@@ -274,31 +282,31 @@ header .nav-item a.active-part{
 /* Running part start */
 .runing{
     display: grid;
-    /* grid-template-columns: repeat(2, 1fr); */
     grid-template-columns: 500px  500px ;
     max-width: 1044px;
     max-height: 371px;
     align-items: center;
     margin: 0 auto;
-    padding: 25px;
-    background-color: gray;
+    padding: 30px;
+    border-radius: 18px;
+    background-color: var(--color-gray);
 }
 .runing_img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    padding: 25px;
+    width: 80%;
+    height: 80%;
+    margin-left: 60px;
+    border-radius: 25px;
 }
+/* Running part end */
 
 /* Traning exercice part start */
-
 .trainingExercises{
     max-width: 1060px;
     max-height: 582px;
     align-items: center;
     margin: 0 auto;
-    /* border: 2px solid brown; */
-    
+    margin-top: 60px;
+    /* border: 2px solid brown; */    
 }
 .exercisesimgs1{
     display: grid;
@@ -334,6 +342,27 @@ header .nav-item a.active-part{
     height: 202px;
 }
 /* Traning exercice part end */
+
+/* BMI Calculator Start */
+#bmi-calculator-top{
+    background-color: var(--color-black);
+}
+#bmi-calculator-top .container{
+    padding: 50px 0;
+}
+#bmi-calculator{
+    background-color: var(--color-gray);
+}
+#bmi-calculator .container{
+    padding: 50px 0;
+}
+.calculator-chart{
+    margin: 0 auto;
+}
+#bmi-calculator .input-group{
+    gap: 12px;
+}
+/* BMI Calculator End */
 
 /* BMI Calculator part start */
 .BMI-title{
