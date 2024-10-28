@@ -137,12 +137,12 @@
               <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
           </div>
       </div>
-  </section>
-  <section id="bmi-calculator" class="bmi-calculator">
+    </section>
+    <section id="bmi-calculator" class="bmi-calculator">
       <div class="container display-flex">
-          <div class="calculator-chart flex justify-content-center w-50">
+          <div class="calculator-chart display-flex justify-content-center w-50">
               <div class="">
-                  <h4>BMI Calculator Chart</h4>
+                  <h3 class="Cal-title">BMI Calculator Chart</h3>
                   <table>
                       <thead>
                       <tr>
@@ -172,10 +172,10 @@
               </div>
           </div>
           <div class="calculate-form w-50">
-              <h4>Calculate your BMI</h4>
+              <h3>Calculate your BMI</h3>
               <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
               <form action="">
-                  <div class="input-group flex">
+                  <div class="input-group display-flex">
                       <div class="w-50">
                           <input type="text" placeholder="Height/cm">
                       </div>
@@ -183,7 +183,7 @@
                           <input type="text" placeholder="Weight/kg">
                       </div>
                   </div>
-                  <div class="input-group flex">
+                  <div class="input-group display-flex">
                       <div class="w-50">
                           <input type="text" placeholder="Age">
                       </div>
@@ -205,11 +205,11 @@
               </form>
           </div>
       </div>
-  </section>
+    </section>
   <!--   BMI Calculator End  -->
 
-      <!-- BMI Calculator part start -->
-      <section>
+      <!-- BMI Calculator part start using grid -->
+      <!-- <section class="bmi-calculator">
         <div class="BMI-title">
             <h1>BMI Calculator</h1>
             <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
@@ -220,16 +220,16 @@
               <h4>BMI Calculator Chart</h4>
             </div>
             <div class="BMI-Calculator-Chart">
-                <div class="item">BMI</div>
-                <div class="item">Weight Status</div>
-                <div class="item">Below 18.5</div>
-                <div class="item">Underweight</div>
-                <div class="item">18.5 - 24.9</div>
-                <div class="item">Healthy</div>
-                <div class="item">25.0 - 29.9</div>
-                <div class="item">Overweight</div>
-                <div class="item">30.0 - and Above</div>
-                <div class="item">Obese</div>
+                <div class="item1">BMI</div>
+                <div class="item2">Weight Status</div>
+                <div class="item3">Below 18.5</div>
+                <div class="item4">Underweight</div>
+                <div class="item5">18.5 - 24.9</div>
+                <div class="item6">Healthy</div>
+                <div class="item7">25.0 - 29.9</div>
+                <div class="item8">Overweight</div>
+                <div class="item9">30.0 - and Above</div>
+                <div class="item10">Obese</div>
             </div>
           </div>
             <div class="BMI-calculate-Right-part">
@@ -253,33 +253,71 @@
                 <select id="inputSelect" name="inputSelect" 
                 style="margin-left: 8px;">
                   <option value="Option1">Select an activity factor</option>
-                  <!-- <option value="Option2">Option 2</option>
-                  <option value="Option3">Option 3</option> -->
+                  <option value="Option2">Option 2</option>
+                  <option value="Option3">Option 3</option>
                 </select><br>
                 <button class="btn-primary">Calculate</button>
               </div> 
             </div>
         </div>
-      </section>
+      </section> -->
       <!-- BMI Calculator part End -->
-      <!-- <section>
-        <div class="">
-            <h1>Meet Our Team</h1>
-            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-        </div>
-        <div class="">
-            <div class="">
-                <div class="">
-                    <img src="./images/exercise1.jpg" alt="">
-                    <img src="./images/exercise2.png" alt="">
-                    <img src="./images/exercise3.png" alt="">
-                    <img src="./images/exercise4.png" alt="">
-                    <img src="./images/exercise5.jpg" alt="">
-                    <img src="./images/exercise6.jpg" alt="">   
+
+
+       <!--   Meet Our Team Start  -->
+    <section class="meet-our-team text-center" id="meet-our-team">
+        <div class="container">
+         <h2 class="section-title">Meet Our Team</h2>
+         <p class="">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            <div class="cards display-grid">
+                <div class="card">
+                    <div class="team-member-img">
+                        <img src="./images/trainer1.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h5>Jerome Bell</h5>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/trainer2.png" alt="">
+                    <div class="card-content">
+                        <h5>Jerome Bell</h5>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/trainer3.png" alt="">
+                    <div class="card-content">
+                        <h5>Jerome Bell</h5>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/trainer4.png" alt="">
+                    <div class="card-content">
+                        <h5>Jerome Bell</h5>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/trainer5.png" alt="">
+                    <div class="card-content">
+                        <h5>Jerome Bell</h5>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/trainer6.png" alt="">
+                    <div class="card-content">
+                        <h5>Jerome Bell</h5>
+                        <p>Trainer</p>
+                    </div>
                 </div>
             </div>
         </div>
-      </section> -->
+     </section>
+     <!--   Meet Our Team End  -->
     </main>
 </body>
 </html>

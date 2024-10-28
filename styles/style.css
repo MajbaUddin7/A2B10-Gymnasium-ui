@@ -71,6 +71,7 @@ button{
     border: 2px solid grey;
     border-radius: 35px;
 } */
+
 /* Reusable css class */
 .display-flex{
     display: flex;
@@ -83,6 +84,16 @@ button{
 }
 .text-center{
     text-align: center;
+}
+.w-50{
+    width: 50%;
+}
+.mx-auto{
+    margin: auto;
+}
+img{
+    width: 100%;
+    object-fit: cover;
 }
 /* navbar related css start */
 
@@ -165,9 +176,6 @@ header .nav-item a.active-part{
  .banner-part{
     margin-top: 30px;
  }
-.w-50{
-    width: 50%;
-}
 .section-title{
     color: var(--color-white);
     font-size: 48px;
@@ -343,7 +351,7 @@ header .nav-item a.active-part{
 }
 /* Traning exercice part end */
 
-/* BMI Calculator Start */
+/* BMI Calculator Start using flex */
 #bmi-calculator-top{
     background-color: var(--color-black);
 }
@@ -358,23 +366,50 @@ header .nav-item a.active-part{
 }
 .calculator-chart{
     margin: 0 auto;
+    justify-content: center;
+}
+.Cal-title{
+    margin-bottom: 30px;
 }
 #bmi-calculator .input-group{
     gap: 12px;
 }
+input{
+    background-color: #383838;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 0px;
+    padding: 12px 12px;
+    width: 100%;
+}
+select{
+    background-color: #383838;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 0px;
+    padding: 12px 12px;
+    color: #8d8d8d;
+    width: 100%;
+}
+table, th, td{
+    color: #8d8d8d;
+    font-size: 14px;
+    border: 1px solid #8d8d8d;
+    border-collapse: collapse;
+    text-align: center;
+}
+th,td{
+    padding: 8px;
+}
 /* BMI Calculator End */
 
-/* BMI Calculator part start */
-.BMI-title{
+/* BMI Calculator part start using grid */
+/* .BMI-title{
     justify-items: center;
 }
 .BMI-calculate-part{
     display: grid;
-    /* grid-template-columns: 200px  200px 200px  200px 200px ; */
-    /* grid-template-columns: repeat(2,100px) 200px 150px; */
-    /* grid-template-columns: 100px  200px 300px  500px ;  */
     grid-template-columns: repeat(2, 1fr);
-    /* grid-template-columns: 200px 200px ; */
     justify-content: center;
     background-color:rgb(128, 128, 128);
     max-width: 1440px;
@@ -386,14 +421,9 @@ header .nav-item a.active-part{
 .BMI-Calculate-title{
     width: 300px;
     margin-left: 208px;
-    /* border: 2px solid brown; */
 }
 .BMI-Calculator-Chart{
     display: grid;
-    /* grid-template-columns: 200px  200px 200px  200px 200px ; */
-    /* grid-template-columns: repeat(2,100px) 200px 150px; */
-    /* grid-template-columns: 100px  200px 300px  500px ;  */
-    /* grid-template-columns: repeat(4, 1fr); */
     grid-template-columns: 150px 150px ;
     justify-content: center;
     align-items: center;
@@ -402,6 +432,41 @@ header .nav-item a.active-part{
 .item{
     align-items: center;
     border: 1px solid gainsboro;
-}
+} */
 
 /* BMI Calculator part End */
+
+
+/* Meet our team css starts */
+.display-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#meet-our-team{
+    padding: 100px 0;
+}
+#meet-our-team .cards{
+    gap: 20px;
+    padding: 20px;
+    background-color: var(--color-gray);
+    border-radius: 18px;
+}
+#meet-our-team .card{
+    position: relative;
+}
+#meet-our-team .card .team-member-img{
+    position: relative;
+}
+
+#meet-our-team .card img{
+    height: 300px;
+}
+#meet-our-team .card .card-content{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+#meet-our-team img{
+    border-radius: 18px;
+}
+/* Meet our team css end */
