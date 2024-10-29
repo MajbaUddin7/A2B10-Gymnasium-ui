@@ -52,7 +52,6 @@ button{
     background-color: transparent;
     border: 2px solid var(--color-white);
 }
-
 /* .btn-primary{
     background-color: brown;
     color: white;
@@ -433,9 +432,7 @@ th,td{
     align-items: center;
     border: 1px solid gainsboro;
 } */
-
 /* BMI Calculator part End */
-
 
 /* Meet our team css starts */
 .display-grid{
